@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+	<title>Mighty Grant</title>
+</head>
+
+<body>
+
+    <!-- Displays current outcomes -->
+    <div class="flex-container">
+        <div class="upper-display">
+            <div id="display-text"><h3>Do you want to fight?</h3></div>
+            <div id="display-round"><p>3 Rounds Left</p></div>
+        </div><!-- End upper display -->
+    </div><!-- End flex container -->
+
+    <!-- Console Buttons -->
+    <div class="flex-container">
+        <button id="start-game">Start</button>
+        <button id="attack">Attack</button>
+        <button id="heal">Heal</button>
+        <button id="quit">Flee</button>
+    </div>
+
+    <!-- Player's stats -->
+    <div class="flex-container">
+        <div class="lower-displays">
+            <div class="player-stats">
+                <div class="btn-flex" id="player-wins"><p>Player Wins</p></div>
+                <div class="btn-flex" id="player-wins-count"></div>
+                <div class="btn-flex" id="player-hp"><p>Player's Health Points</p></div>
+                <div class="btn-flex" id="player-health-count"><p>Player's Health Count </p></div>
+            </div>
+        </div><!-- End lower display -->
+    </div><!-- End flex container -->
+
+    <!-- Grant's stats -->
+    <div class="flex-container">
+        <div class="lower-displays">
+            <div class="grant-stats">
+                    <div id="grant-losses"><p>Grant's losses</p></div>
+                    <div id="grant-losses-count"></div>
+                    <div id="grant-hp"><p>Grant's Health</p></div>
+            </div> 
+        </div><!-- End lower display -->
+    </div><!-- End flex container -->
+
+ 
+
+
+    <script src="assets/script/main.js"></script>
+</body>
+
+</html>
