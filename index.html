@@ -13,7 +13,7 @@
     <!-- Displays current outcomes -->
     <div class="flex-container">
         <div class="upper-display">
-            <div id="display-text"><h3>Do you want to fight?</h3></div>
+            <div id="display-text"><h3>Start Game</h3></div>
             <div id="display-round"><p>3 Rounds Left</p></div>
         </div><!-- End upper display -->
     </div><!-- End flex container -->
@@ -32,8 +32,8 @@
             <div class="player-stats">
                 <div class="btn-flex" id="player-wins"><p>Player Wins</p></div>
                 <div class="btn-flex" id="player-wins-count"></div>
-                <div class="btn-flex" id="player-hp"><p>Player's Health Points</p></div>
-                <div class="btn-flex" id="player-health-count"><p>Player's Health Count </p></div>
+                <div class="btn-flex" id="player-hp"><p>Player's Health Points:</p> <span id="player-hp-display"></span></div>
+                <div class="btn-flex" id="player-health-count"><p>You have  <span id="player-hc-display">2</span> Health Count(s)</p></div>
             </div>
         </div><!-- End lower display -->
     </div><!-- End flex container -->
@@ -44,7 +44,7 @@
             <div class="grant-stats">
                     <div id="grant-losses"><p>Grant's losses</p></div>
                     <div id="grant-losses-count"></div>
-                    <div id="grant-hp"><p>Grant's Health</p></div>
+                    <div id="grant-hp"><p>Grant's Health</p><span id="grant-hp-display"></span></div>
             </div> 
         </div><!-- End lower display -->
     </div><!-- End flex container -->
